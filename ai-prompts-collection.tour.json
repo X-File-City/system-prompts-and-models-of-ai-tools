@@ -1,0 +1,297 @@
+{
+  "id": "ai-prompts-collection",
+  "title": "AI System Prompts & Tools Collection",
+  "description": "Explore the largest open-source collection of AI system prompts and tool definitions from 30+ coding assistants, agents, and AI platforms",
+  "version": "1.0.0",
+  "audience": "AI Researchers & Developers",
+  "prerequisites": [
+    "Interest in AI system design and prompt engineering"
+  ],
+  "steps": [
+    {
+      "id": "step-1-overview",
+      "title": "The AI Prompt Archive",
+      "description": "Welcome to the most comprehensive collection of leaked and documented AI system prompts. Over 30,000 lines of insight into how major AI tools are built — from coding agents to chat assistants. Each directory contains system prompts, tool definitions, or both for a specific AI product.",
+      "estimatedTime": 60,
+      "colorMode": "fileTypes"
+    },
+    {
+      "id": "step-2-anthropic",
+      "title": "Anthropic (Claude)",
+      "description": "Anthropic's own prompts for Claude — including Claude Code (the CLI coding agent), Claude for Chrome, and the Sonnet model prompt. These reveal how Anthropic instructs its own models to behave, handle tools, and interact safely with users.",
+      "estimatedTime": 90,
+      "focusDirectory": "Anthropic",
+      "highlightLayers": [
+        {
+          "id": "anthropic-products",
+          "name": "Anthropic Products",
+          "color": "#d97706",
+          "items": [
+            { "path": "Anthropic/Claude Code", "type": "directory" },
+            { "path": "Anthropic/Claude for Chrome", "type": "directory" }
+          ],
+          "opacity": 0.7,
+          "borderWidth": 2
+        }
+      ],
+      "colorMode": "fileTypes"
+    },
+    {
+      "id": "step-3-coding-agents",
+      "title": "AI Coding Agents",
+      "description": "The heavyweight coding agents — Cursor, Windsurf, Augment Code, Devin AI, and Junie. These directories show how modern AI coding tools are prompted to read codebases, generate code, run terminals, and manage multi-file edits. Compare their different approaches to agent architecture.",
+      "estimatedTime": 120,
+      "focusDirectory": "",
+      "highlightLayers": [
+        {
+          "id": "coding-agents",
+          "name": "Coding Agents",
+          "color": "#3b82f6",
+          "items": [
+            { "path": "Cursor Prompts", "type": "directory" },
+            { "path": "Windsurf", "type": "directory" },
+            { "path": "Augment Code", "type": "directory" },
+            { "path": "Devin AI", "type": "directory" },
+            { "path": "Junie", "type": "directory" },
+            { "path": "Kiro", "type": "directory" },
+            { "path": "VSCode Agent", "type": "directory" }
+          ],
+          "opacity": 0.7,
+          "borderWidth": 2
+        }
+      ],
+      "colorMode": "fileTypes"
+    },
+    {
+      "id": "step-4-ai-platforms",
+      "title": "AI Platforms & Assistants",
+      "description": "Full-stack AI platforms like Lovable, Replit, v0, and Same.dev — tools that generate entire applications. Also includes general-purpose assistants like Perplexity and NotionAi. Their prompts reveal how they handle complex multi-step generation and user interaction.",
+      "estimatedTime": 90,
+      "focusDirectory": "",
+      "highlightLayers": [
+        {
+          "id": "platforms",
+          "name": "AI Platforms",
+          "color": "#8b5cf6",
+          "items": [
+            { "path": "Lovable", "type": "directory" },
+            { "path": "Replit", "type": "directory" },
+            { "path": "v0 Prompts and Tools", "type": "directory" },
+            { "path": "Same.dev", "type": "directory" },
+            { "path": "Leap.new", "type": "directory" }
+          ],
+          "opacity": 0.7,
+          "borderWidth": 2
+        },
+        {
+          "id": "assistants",
+          "name": "AI Assistants",
+          "color": "#ec4899",
+          "items": [
+            { "path": "Perplexity", "type": "directory" },
+            { "path": "NotionAi", "type": "directory" },
+            { "path": "Comet Assistant", "type": "directory" }
+          ],
+          "opacity": 0.7,
+          "borderWidth": 2
+        }
+      ],
+      "colorMode": "fileTypes"
+    },
+    {
+      "id": "step-5-autonomous-agents",
+      "title": "Autonomous Agents",
+      "description": "AI agents that operate with greater autonomy — Manus (multi-module agent with browser, code, and file tools), Devin AI (fully autonomous software engineer), Poke (multi-prompt agent pipeline), and Emergent. Their prompts show how agent loops, planning, and tool use are orchestrated.",
+      "estimatedTime": 90,
+      "focusDirectory": "",
+      "highlightLayers": [
+        {
+          "id": "autonomous-agents",
+          "name": "Autonomous Agents",
+          "color": "#ef4444",
+          "items": [
+            { "path": "Manus Agent Tools & Prompt", "type": "directory" },
+            { "path": "Devin AI", "type": "directory" },
+            { "path": "Poke", "type": "directory" },
+            { "path": "Emergent", "type": "directory" },
+            { "path": "Traycer AI", "type": "directory" }
+          ],
+          "opacity": 0.7,
+          "borderWidth": 2
+        }
+      ],
+      "colorMode": "fileTypes"
+    },
+    {
+      "id": "step-6-open-source",
+      "title": "Open Source Tools",
+      "description": "Prompts from open-source AI coding tools — Bolt, Cline, Codex CLI, Gemini CLI, Lumo, and RooCode. Since these tools are open source, their prompts can be verified against actual source code. Great for learning prompt engineering patterns that are production-tested.",
+      "estimatedTime": 90,
+      "focusDirectory": "Open Source prompts",
+      "highlightLayers": [
+        {
+          "id": "oss-tools",
+          "name": "Open Source Tools",
+          "color": "#10b981",
+          "items": [
+            { "path": "Open Source prompts/Bolt", "type": "directory" },
+            { "path": "Open Source prompts/Cline", "type": "directory" },
+            { "path": "Open Source prompts/Codex CLI", "type": "directory" },
+            { "path": "Open Source prompts/Gemini CLI", "type": "directory" },
+            { "path": "Open Source prompts/Lumo", "type": "directory" },
+            { "path": "Open Source prompts/RooCode", "type": "directory" }
+          ],
+          "opacity": 0.7,
+          "borderWidth": 2
+        }
+      ],
+      "colorMode": "fileTypes"
+    },
+    {
+      "id": "step-7-google",
+      "title": "Google AI Products",
+      "description": "Google's AI tool prompts including Gemini (AI Studio vibe-coder) and Antigravity (with fast and planning modes). These show Google's approach to AI-assisted coding and how they structure different operational modes for their agents.",
+      "estimatedTime": 60,
+      "focusDirectory": "Google",
+      "highlightLayers": [
+        {
+          "id": "google-products",
+          "name": "Google Products",
+          "color": "#0ea5e9",
+          "items": [
+            { "path": "Google/Gemini", "type": "directory" },
+            { "path": "Google/Antigravity", "type": "directory" }
+          ],
+          "opacity": 0.7,
+          "borderWidth": 2
+        }
+      ],
+      "colorMode": "fileTypes"
+    },
+    {
+      "id": "step-8-full-view",
+      "title": "The Full Landscape",
+      "description": "You've now seen the major categories in this collection. Every directory lit up — from major coding agents to niche emerging tools like Amp, Cluely, CodeBuddy, dia, Orchids.app, Qoder, Trae, Warp.dev, Xcode, and Z.ai Code. Over 30,000 lines of AI system prompt insights, all in one place.",
+      "estimatedTime": 60,
+      "focusDirectory": "",
+      "highlightLayers": [
+        {
+          "id": "coding-agents-all",
+          "name": "Coding Agents",
+          "color": "#3b82f6",
+          "items": [
+            { "path": "Cursor Prompts", "type": "directory" },
+            { "path": "Windsurf", "type": "directory" },
+            { "path": "Augment Code", "type": "directory" },
+            { "path": "Devin AI", "type": "directory" },
+            { "path": "Junie", "type": "directory" },
+            { "path": "Kiro", "type": "directory" },
+            { "path": "VSCode Agent", "type": "directory" }
+          ],
+          "opacity": 0.7,
+          "borderWidth": 2
+        },
+        {
+          "id": "anthropic-all",
+          "name": "Anthropic",
+          "color": "#d97706",
+          "items": [
+            { "path": "Anthropic", "type": "directory" }
+          ],
+          "opacity": 0.7,
+          "borderWidth": 2
+        },
+        {
+          "id": "platforms-all",
+          "name": "AI Platforms",
+          "color": "#8b5cf6",
+          "items": [
+            { "path": "Lovable", "type": "directory" },
+            { "path": "Replit", "type": "directory" },
+            { "path": "v0 Prompts and Tools", "type": "directory" },
+            { "path": "Same.dev", "type": "directory" },
+            { "path": "Leap.new", "type": "directory" }
+          ],
+          "opacity": 0.7,
+          "borderWidth": 2
+        },
+        {
+          "id": "assistants-all",
+          "name": "AI Assistants",
+          "color": "#ec4899",
+          "items": [
+            { "path": "Perplexity", "type": "directory" },
+            { "path": "NotionAi", "type": "directory" },
+            { "path": "Comet Assistant", "type": "directory" }
+          ],
+          "opacity": 0.7,
+          "borderWidth": 2
+        },
+        {
+          "id": "autonomous-all",
+          "name": "Autonomous Agents",
+          "color": "#ef4444",
+          "items": [
+            { "path": "Manus Agent Tools & Prompt", "type": "directory" },
+            { "path": "Poke", "type": "directory" },
+            { "path": "Emergent", "type": "directory" },
+            { "path": "Traycer AI", "type": "directory" }
+          ],
+          "opacity": 0.7,
+          "borderWidth": 2
+        },
+        {
+          "id": "oss-all",
+          "name": "Open Source",
+          "color": "#10b981",
+          "items": [
+            { "path": "Open Source prompts", "type": "directory" }
+          ],
+          "opacity": 0.7,
+          "borderWidth": 2
+        },
+        {
+          "id": "google-all",
+          "name": "Google",
+          "color": "#0ea5e9",
+          "items": [
+            { "path": "Google", "type": "directory" }
+          ],
+          "opacity": 0.7,
+          "borderWidth": 2
+        },
+        {
+          "id": "emerging-all",
+          "name": "Emerging & Niche",
+          "color": "#f59e0b",
+          "items": [
+            { "path": "Amp", "type": "directory" },
+            { "path": "Cluely", "type": "directory" },
+            { "path": "CodeBuddy Prompts", "type": "directory" },
+            { "path": "dia", "type": "directory" },
+            { "path": "Orchids.app", "type": "directory" },
+            { "path": "Qoder", "type": "directory" },
+            { "path": "Trae", "type": "directory" },
+            { "path": "Warp.dev", "type": "directory" },
+            { "path": "Xcode", "type": "directory" },
+            { "path": "Z.ai Code", "type": "directory" }
+          ],
+          "opacity": 0.7,
+          "borderWidth": 2
+        }
+      ],
+      "colorMode": "git"
+    }
+  ],
+  "metadata": {
+    "author": "File City Tours",
+    "createdAt": "2026-03-03T00:00:00.000Z",
+    "tags": [
+      "ai-prompts",
+      "system-prompts",
+      "prompt-engineering",
+      "ai-tools",
+      "onboarding"
+    ]
+  }
+}
